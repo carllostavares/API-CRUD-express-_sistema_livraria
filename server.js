@@ -7,7 +7,7 @@ const rotas = {
     '/outores': 'Listagem de autores',
     '/editora': 'Pagina editora',
     '/sobre' : 'Informacao sobre o Projeto.'
-}
+} 
 
 
 const server = http.createServer((req,res) => {
