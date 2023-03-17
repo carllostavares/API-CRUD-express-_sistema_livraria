@@ -1,3 +1,5 @@
+//Sempre que vamos trabalhar com um projeto em Node.js do zero, uma das primeiras coisas que fazemos é criar um arquivo de configuração utilizando o comando npm init ou yarn init, assim como para todas as instalações de libs externas utilizamos o comando npm install <nome do pacote> ou yarn add <nome do pacote>.
+
 const http = require("http") // requerir o metodo htttp
 const port = 3000; /// definir uma porta para o servidor escutar no servidor local
 
