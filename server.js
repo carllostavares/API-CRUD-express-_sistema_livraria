@@ -2,10 +2,12 @@
 
 // fazer também a ainstalação do Express : npm install express@4.17.3 (4.17.3 é a utimas versao no momento)
 
-const http = require("http") // requerir o metodo htttp
-const port = 3000; /// definir uma porta para o servidor escutar no servidor local
+import app from './src/app.js'
 
-const rotas = {
+const http = require("http") // requerir o metodo htttp
+const port = process.end.PORT || 3000; /// definir uma porta para o servidor escutar no servidor local
+
+/*const rotas = {
     '/': 'Curso de Node',
     '/livros': 'Entrei na pagina de livros',
     '/outores': 'Listagem de autores',
@@ -16,9 +18,9 @@ const server = http.createServer((req,res) => {
 res.writeHead(200,{'Content-Type': 'text/plain'})//devolve o staatus 200"OK" com o tipo de conteudo que estou mandando.
 res.end(rotas[req.url]);
 })//criando o servidor usando o modulo http para aplicar o metodo creatServer
-// rep => requisição / res => resposta // usando uma funçãoa callback //Toda vez que o servidor http receber um requisição, a função callback será executada.
+// rep => requisição / res => resposta // usando uma funçãoa callback //Toda vez que o servidor http receber um requisição, a função callback será executada.*/
 
-server.listen(port,() => {
+app.listen(port,() => {
     console.log(`Servidor escutando em http://localhhost:${port}`)
 })
 
