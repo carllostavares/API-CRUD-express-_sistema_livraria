@@ -4,8 +4,8 @@
 
 import app from './src/app.js'
 
-const http = require("http") // requerir o metodo htttp
-const port = process.end.PORT || 3000; /// definir uma porta para o servidor escutar no servidor local
+//const http = require("http") // requerir o metodo htttp
+const port = process.env.PORT || 3000; /// definir uma porta para o servidor escutar no servidor local
 
 /*const rotas = {
     '/': 'Curso de Node',
@@ -21,7 +21,7 @@ res.end(rotas[req.url]);
 // rep => requisição / res => resposta // usando uma funçãoa callback //Toda vez que o servidor http receber um requisição, a função callback será executada.*/
 
 app.listen(port,() => {
-    console.log(`Servidor escutando em http://localhhost:${port}`)
+    console.log(`Servidor escutando em http://localhost:${port}`)
 })
 
 // USAR O COMANDO: npm instal nodemon@2.0.15 -D
@@ -30,3 +30,5 @@ app.listen(port,() => {
 
 //depois vai no package.json  e coloca na parte script : "dev": "nodemon server.js"
 //por fim, executa no terminal : npm run dev
+
+// colar o "type": "module", no arquivo packjson.json para informar que está trabalhando com importação e exportação de modulos
