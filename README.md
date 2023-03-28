@@ -1,6 +1,6 @@
 ## 💻 Projeto
 
-<p>CRUD para ua Livraria. Onde terá métodos para buscar, cadastrar, atualizar e excluir um livro específico. Sem usar o Banco de Dados e simulando as requisições pelo Postman.
+<p>CRUD para uma Livraria. Onde terá métodos para buscar, cadastrar, atualizar e excluir um livro específico. Sem usar o Banco de Dados e simulando as requisições pelo Postman.
 </p><br>
 
 ## O que aprendi com esse projeto !
