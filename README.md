@@ -1,7 +1,7 @@
 ## 💻 Projeto
 
 <p>CRUD para ua Livraria. Onde terá métodos para buscar, cadastrar, atualizar e excluir um livro específico. Sem usar o Banco de Dados e simulando as requisições pelo Postman.
-</p><br><br>
+</p><br>
 
 ## O que aprendi com esse projeto !
 
@@ -22,7 +22,7 @@
     Devolver dados como resposta às requisições, usando o padrão JSON;
     Utilizar o Postman para fazer as requisições do tipo GET, POST, PUT e DELETE, cujas últimas três não conseguimos simular pelo navegador. Por isso foi necessário usar o Postman para simular as requisições
     </li>
-</ul><br><br>
+</ul><br>
 
 ## O que preciso para testar o código ?!  
 ### Deverá baixar e instalar as tecnologias abaixo 👇
