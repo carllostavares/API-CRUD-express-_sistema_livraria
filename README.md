@@ -27,22 +27,42 @@
 ## O que preciso para testar o código ?!  
 ### Deverá baixar e instalar as tecnologias abaixo 👇
 <br>
-
 <ol>
     <li>Node.js Link: https://nodejs.org/pt-br/download
     </li><br>
     <li>Postman Link: https://www.postman.com/  Obs: Poderá também usar a versão web.
     </li>
-</ol>
+</ol><br>
 
 ## Como usar ?
 
 
-<ol>
-    <li>
-    </li>
-    <li>
-    </li>
-    <li>
-    </li>
-</ol>
+<p>1- Iniciar o npm.</p>
+
+    npm init 
+
+<p>2- Instale o express (4.17.3 é a utimas versao no momento) <p>
+
+    npm intall express@4.17.3
+
+<p>3- instale a biblioteca para rodar o sevidor automaticamente sempre que salvar o arquivo. </p>
+
+    instal nodemon@2.0.15
+
+<p>Pepois vá no arquivo package.json e coloque na parte script : "dev": "nodemon server.js". e o "type": "module", também no arquivo packjson.json, para informar que está trabalhando com importação e exportação de modulos.</p>
+
+
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    },
+
+
+<p>Para iniciar a API digite no terminal:</p>
+
+    npm run dev
+
+<p>Depois disso, o programa já estará fincionando e ouvindo a porta 3000. Aí é só realizar as requisições no Postman. Bons estudos !!</p>
+
