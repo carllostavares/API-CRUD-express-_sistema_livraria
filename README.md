@@ -64,5 +64,8 @@
 
     npm run dev
 
-<p>Depois disso, o programa já estará fincionando e ouvindo a porta 3000. Aí é só realizar as requisições no Postman. Bons estudos !!</p>
+<p>Depois disso, o programa já estará fincionando e ouvindo a porta 3000. Aí é só realizar as requisições no Postman. Bons estudos !!</p><br>
 
+<p align ="center">
+<img src="./img/imgPostman.png">
+</p>
